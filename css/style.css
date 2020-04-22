@@ -14,13 +14,16 @@
     box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
 }
 
+
 a {
     text-decoration: none;
 }
+
 
 li {
     list-style: none;
@@ -30,7 +33,7 @@ li {
 
 
 /**********************************************
-*** Header 
+*** Header Section
 **********************************************/
 header {
     height: 100vh;
@@ -73,9 +76,9 @@ header {
     background-color: #432B99;
     border: 1px solid #432B99;
     color: #ffffff;
-    padding: 8px 16PX;
+    padding: 7px 14PX;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
     transition: 300ms;
@@ -152,7 +155,7 @@ nav .sign button:last-child:hover {
 .about {
     width: 100%;
     position: absolute;
-    bottom: 3%;
+    bottom: 2%;
 }
 
 
@@ -194,4 +197,89 @@ nav .sign button:last-child:hover {
 .about ul li p {
     font-size: 12px;
     user-select: none;
+}
+
+
+
+/**********************************************
+*** Learn Section 
+**********************************************/
+.learn {
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+
+.learn .learn-section {
+    background: linear-gradient(to bottom,
+            white, rgb(235, 232, 240));
+    border-radius: 0% 0% 85% 85% / 30%;
+    padding: 0px 200px 100px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learn .learn-ticks {
+    height: 100%;
+    margin-right: 60px;
+}
+
+.learn .learn-ticks h1 {
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.learn .learn-ticks p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.learn .learn-ticks p span {
+    margin-right: 5px;
+}
+
+.learn .learn-more {
+    width: 80%;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.learn .learn-more button {
+    background-color: #432B99;
+    border: 1px solid #432B99;
+    color: #ffffff;
+    padding: 7px 14PX;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 300ms
+}
+
+
+.learn .learn-more button:hover {
+    background-color: rgb(64, 47, 128);
+    border: 1px solid #432B99;
+}
+
+
+.learn .learn-more span {
+    display: flex;
+    align-items: center;
+    color: #432B99;
+    cursor: pointer;
+}
+
+
+.learn .learn-more .icon-playSign {
+    margin-left: 5px;
+    font-size: 20px;
 }
