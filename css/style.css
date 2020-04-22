@@ -1,7 +1,155 @@
 /**********************************************
 *** General Styles 
 **********************************************/
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+
 * {
     margin: 0;
     padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+/**********************************************
+*** Header 
+**********************************************/
+header {
+    height: 100vh;
+    position: relative;
+}
+
+.main {
+    width: 80%;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+
+.oval {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.player {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    border-radius: 5px;
+}
+
+
+.main  {
+   
+}
+
+
+.main .get-started p {
+    font-size: 40px;
+}
+
+
+.main .get-started div {
+    width: 35%;
+    font-size: 16px;
+}
+
+.main .get-started button {
+    background-color: #432B99;
+    border: 1px solid #432B99;
+    color: #ffffff;
+    padding: 8px 16PX;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.main .get-started button:hover {
+    background-color: rgb(64, 47, 128);
+    border: 1px solid #432B99;
+}
+
+
+nav {
+    width: 40%;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    margin-right: 20px;
+    color: #f7f4fb;
+    transition: 300ms;
+}
+
+nav ul li a:hover {
+    color: #d4d4d4;
+}
+
+nav .sign button {
+    padding: 10px 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .sign button:first-child {
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: poppins;
+    background-color: transparent;
+    margin-right: 8px;
+    transition: 300ms;
+}
+
+nav .sign button:first-child:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+nav .sign button:last-child {
+    border: 1px solid #000;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: poppins;
+    background-color: #2f281e;
+    transition: 300ms;
+}
+
+nav .sign button:last-child:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
 }

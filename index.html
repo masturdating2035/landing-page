@@ -4,12 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Site</title>
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <title>Landing Page</title>
 </head>
 
 <body>
+    <header>
+        <img src="./img/oval.png" class="oval">
+        <img src="./img/player.jpg" class="player" data-aos="zoom-in">
+        <nav data-aos="fade-down">
+            <ul class="d-flex justify-content-between align-items-center">
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Pricng</a>
+                    <a href="#">Contact</a>
+                </li>
+
+                <li class="sign">
+                    <button>Sign In</button>
+                    <button>Sign Up</button>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="main">
+            <div class="get-started" data-aos="fade-right">
+                <p>A guide to <strong>Rocky</strong></p>
+                <p>mountain vacations</p>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rerum! Voluptatibus tempora vel
+                    accusantium
+                    rerum aliquid iste quibusdam temporibus similique, voluptatem perferendis officiis architecto earum,
+                    alias,
+                    sed voluptates! Delectus, amet!
+                </div>
+                <button>Get Started</button>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="./js/app.js"></script>
 </body>
+
+
 
 </html>
