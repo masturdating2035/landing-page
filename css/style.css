@@ -40,7 +40,7 @@ header {
 .main {
     width: 80%;
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     left: 10vw;
 }
 
@@ -53,14 +53,9 @@ header {
 
 .player {
     position: absolute;
-    top: 20%;
+    top: 15%;
     right: 10%;
     border-radius: 5px;
-}
-
-
-.main  {
-   
 }
 
 
@@ -152,4 +147,51 @@ nav .sign button:last-child:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #fff;
+}
+
+.about {
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+}
+
+
+.about ul {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.about ul li img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #432B99;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.about ul li:nth-child(2) img {
+    background-color: #432B99;
+}
+
+.about ul li .about-desc {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.about ul li p {
+    font-size: 12px;
+    user-select: none;
 }
