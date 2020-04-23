@@ -36,8 +36,11 @@ li {
 *** Header Section
 **********************************************/
 header {
+    width: 100%;
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main {
@@ -91,11 +94,11 @@ header {
 
 
 nav {
-    width: 45%;
-    position: absolute;
-    top: 2%;
-    right: 10%;
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 10%;
 }
+
 
 nav ul {
     width: 100%;
@@ -104,21 +107,25 @@ nav ul {
     align-items: center;
 }
 
+
 nav ul li a {
     margin-right: 20px;
     color: #f7f4fb;
     transition: 300ms;
 }
 
+
 nav ul li a:hover {
     color: #d4d4d4;
 }
+
 
 nav .sign button {
     padding: 10px 23px;
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 nav .sign button:first-child {
     border: 1px solid #fff;
@@ -131,10 +138,12 @@ nav .sign button:first-child {
     transition: 300ms;
 }
 
+
 nav .sign button:first-child:hover {
     background-color: #000;
     border: 1px solid #000;
 }
+
 
 nav .sign button:last-child {
     border: 1px solid #000;
@@ -146,16 +155,17 @@ nav .sign button:last-child {
     transition: 300ms;
 }
 
+
 nav .sign button:last-child:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #fff;
 }
 
+
 .about {
     width: 100%;
-    /* position: absolute;
-    bottom: 2%; */
+
 }
 
 
@@ -187,6 +197,7 @@ nav .sign button:last-child:hover {
 .about ul li:nth-child(2) img {
     background-color: #432B99;
 }
+
 
 .about ul li .about-desc {
     font-weight: bold;
@@ -282,4 +293,120 @@ nav .sign button:last-child:hover {
 .learn .learn-more .icon-playSign {
     margin-left: 5px;
     font-size: 20px;
+}
+
+
+
+/**********************************************
+*** Testimonial Section 
+**********************************************/
+.testimonial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -180px;
+}
+
+
+.testimonial p:first-child {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.testimonial p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+
+.testimonial p:nth-child(4) {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+
+.testimonial p:nth-child(5) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #432b99;
+    margin: 10px 0;
+}
+
+
+.testimonial .grill {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.testimonial .grill p {
+    font-size: 16px;
+    color: rgb(64, 95, 150);
+    font-weight: bold;
+}
+
+
+.testimonial .our-story {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/**********************************************
+*** Information Section 
+**********************************************/
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+.info .info-head{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.info .info-head span{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+
+.info .info-head p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.info .info-head .info-head-sub {
+    display: flex;
+    align-items: center;
+}
+
+
+.info .info-desc{
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
