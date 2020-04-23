@@ -91,7 +91,7 @@ header {
 
 
 nav {
-    width: 40%;
+    width: 45%;
     position: absolute;
     top: 2%;
     right: 10%;
@@ -154,8 +154,8 @@ nav .sign button:last-child:hover {
 
 .about {
     width: 100%;
-    position: absolute;
-    bottom: 2%;
+    /* position: absolute;
+    bottom: 2%; */
 }
 
 
