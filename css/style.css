@@ -460,3 +460,80 @@ nav .sign button:last-child:hover {
 .recent .recent-detail .active {
     color: #432B99;
 }
+
+
+
+
+/**********************************************
+*** Mail Section 
+**********************************************/
+#email {
+    width: 100%;
+    margin: 200px 0;
+}
+
+#email .mail {
+    width: 75%;
+    height: 300px;
+    position: relative;
+    background-color: rgb(67, 43, 153);
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#email .mail .shape-up {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#email .mail .shape-down {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+
+#email .mail p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+#email .mail label {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+#email .mail label input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    font-size: 15px;
+}
+
+
+#email .mail label span {
+    font-size: 30px;
+    border-left: 1px solid white;
+    position: absolute;
+    right: 14%;
+    padding: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+
+#email .mail label span:hover{
+    opacity: .5;
+}
