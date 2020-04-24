@@ -318,7 +318,7 @@ nav .sign button:last-child:hover {
 
 
 .testimonial p:nth-child(2) {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 550;
 }
 
@@ -376,7 +376,7 @@ nav .sign button:last-child:hover {
 }
 
 
-.info .info-head{
+.info .info-head {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -385,14 +385,14 @@ nav .sign button:last-child:hover {
 }
 
 
-.info .info-head span{
-    font-size: 30px;
+.info .info-head span {
+    font-size: 28px;
     margin-right: 5px;
 }
 
 
-.info .info-head p{
-    font-size: 30px;
+.info .info-head p {
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -404,9 +404,59 @@ nav .sign button:last-child:hover {
 }
 
 
-.info .info-desc{
+.info .info-desc {
     margin-top: 5px;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+
+
+/**********************************************
+*** Recent Posts Section 
+**********************************************/
+.recent {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.recent .recent-post {
+    text-align: center;
+}
+
+.recent .recent-post p:first-child {
+    font-size: 32px;
+}
+
+
+.recent .recent-post p:last-child {
+    font-size: 16px;
+}
+
+
+.recent .recent-detail {
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.recent .recent-detail .recent-detail-image p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.recent .recent-detail .recent-detail-image p:last-child {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.recent .recent-detail .active {
+    color: #432B99;
 }
